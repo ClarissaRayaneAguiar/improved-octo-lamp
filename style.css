@@ -1,0 +1,27 @@
+
+.produto-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    list-style: none; 
+}
+
+.produto-card h3 {
+    color: #003366;
+    margin-top: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#detalhes {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+}
