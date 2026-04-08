@@ -1,0 +1,36 @@
+5) No MODELO MONOLÍTICO, a aplicação é construída como uma unidade única e indivisível, onde a interface (UI), a lógica de negócio e o acesso a dados estão acoplados no mesmo código e servidor. Já no modelo FRONTEND + BACKEND VIA API, ocorre o desacoplamento: o Backend funciona como um servidor de dados (API) e o Frontend é uma aplicação independente que consome esses dados, permitindo que diferentes interfaces utilizem a mesma lógica.
+    Exemplo MONOLÍTICO: PHP com Laravel (usando Blade para as views).
+    Exemplo via API: React para o Frontend e Node.js para o Backend.
+
+
+
+6) O DOM é uma interface de programação que representa o documento HTML como uma árvore de objetos (nós). Ele serve como uma ponte que permite a linguagens de script, como o JavaScript, acessar e manipular dinamicamente a estrutura, o estilo e o conteúdo da página.
+    Relação: O HTML é o código estático escrito pelo desenvolvedor; o DOM é a representação viva e dinâmica desse código na memória do navegador após o processamento, permitindo alterações em tempo real na página.
+
+
+
+7) O BOX MODEL é o conceito de que todo elemento HTML é representado como uma caixa retangular composta por quatro camadas concêntricas:
+    1. Content (conteúdo): A área real onde aparece o texto ou imagem.
+    2. Padding (almofada): O espaço interno entre o conteúdo e a borda.
+    3. Border (moldura): A linha que envolve o preenchimento e o conteúdo.
+    4. Margin (distânciado vizinho): O espaço externo que separa a borda do elemento de outros vizinhos.
+    Diferença prática: O PADDING cria espaço dentro do elemento (afeta sua área interna), enquanto a MARGIN cria espaço fora do elemento, empurrando os outros componentes para longe.
+
+
+
+8) O BOOTSTRAP é um framework front-end que fornece um conjunto de ferramentas, estilos e componentes pré-estilizados. Ele é usado para agilizar o desenvolvimento, garantindo que o site seja responsivo e visualmente padronizado sem a necessidade de escrever todo o CSS manualmente do zero.
+    Classe 1: container — Responsável por gerenciar o alinhamento, preenchimento e as larguras responsivas do layout.
+    Classe 2: navbar — Componente pronto para criar barras de navegação responsivas e estruturadas.
+
+
+
+9) Por elemento: Seleciona elementos diretamente pela tag HTML (ex: p { color: blue; }).
+    Por classe: Seleciona elementos que possuem o atributo class, permitindo reutilização (ex: .texto-destaque { font-weight: bold; }).
+    Por ID: Seleciona um único elemento específico através do atributo id (ex: #cabecalho { background: red; }).
+    Especificidade: O seletor por ID tem a maior prioridade (especificidade), seguido pela CLASSE e, por fim, pelo ELEMENTO.
+
+
+
+10) O HTML semântico utiliza tags que carregam significado sobre o conteúdo que envolvem (como <header>, <main>, <nav>), enquanto o uso excessivo de <div> apenas agrupa elementos sem descrever sua função lógica.
+    SEO: Melhora o ranqueamento, pois ajuda os motores de busca (como o Google) a entenderem a hierarquia e a relevância da informação.
+    Acessibilidade: Facilita a navegação para usuários que utilizam tecnologias assistivas (leitores de tela), pois as tags descrevem a estrutura da página de forma lógica.
