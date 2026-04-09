@@ -1,1 +1,1 @@
-# Atividade avaliativa
+# Atividade avaliativa de programação
